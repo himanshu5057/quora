@@ -4,7 +4,7 @@
   "description": "Relvel nodejs backend assignment using Express",
   "main": "src/server.js",
   "scripts": {
-    "start": "NODE_ENV=prod node src/server",
+    "start": "node src/server.js",
     "dev": "nodemon src/server"
   },
   "author": "Relevel Team",

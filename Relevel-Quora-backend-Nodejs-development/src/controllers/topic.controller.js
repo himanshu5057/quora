@@ -72,5 +72,5 @@ const getTopic = async (req, res) => {
 
 const deleteTopic = async (req, res) => {
 }
-const PostController=[addTopic,getTopic];
+const PostController={addTopic,getTopic};
 module.exports = PostController;
